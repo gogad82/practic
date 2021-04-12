@@ -1,2591 +1,311 @@
-#header 
-{    
-	 background:url(img/Rectangle.png);
- 	 width: 100%;
- 	 height: 740px;
- 	 position: absolute;
- 	 top:0;
- 	 left: 0;
-
-}
-#header h1
+*
 {
-	font-size: 40px;
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color:#FFFFFF;
-	text-align: center;
-	position: relative;
-
-	top: 25vh;
-	
-	
-}
-#header h5
-{
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-    position: relative;
-    top:40%;
-    font-family: sans-serif;
-  
-}
-/*нижу белый фон*/
-#come
-{
-	background: #fff;
-	width: 1100px;
-	height:300px;
-	position: absolute;
-	top: 580px;
-	left: 300px;
-
-}
-/*26*/
-#come .h{
-	font-size: 90px;
-	color:#F7654A;
-	position: absolute;
-	left: 20vh;
-	top: 15px;
-	font-family: sans-serif;
-
-}
-#come .h1{
-	font-size: 90px;
-	color:#F7654A;
-	position: absolute;
-	left: 45vh;
-	top: 15px;
-	font-family: sans-serif;
-
-}
-#come .h2{
-	font-size: 90px;
-	color:#F7654A;
-	position: absolute;
-	left: 65vh;
-	top: 15px;
-	font-family: sans-serif;
-
-}
-#come .h3{
-	font-size: 90px;
-	color:#F7654A;
-	position: absolute;
-	left: 88vh;
-	top: 15px;
-	font-family: sans-serif;
-
-}
-/*Лет*/
-#come .p
-{
-	font-size: 40px;
-	text-transform: uppercase;
-	position: absolute;
-	left: 21vh;
-	top: 160px;
-	font-family:sans-serif;
-}
-#come .p1
-{
-	font-size: 40px;
-	text-transform: uppercase;
-	position: absolute;
-	left: 46vh;
-	top: 160px;
-	font-family:sans-serif;
-}
-#come .p2
-{
-	font-size: 40px;
-	text-transform: uppercase;
-	position: absolute;
-	left: 66vh;
-	top: 160px;
-	font-family:sans-serif;
-}
-#come .p3
-{
-	font-size: 40px;
-	text-transform: uppercase;
-	position: absolute;
-	left: 89vh;
-	top: 160px;
-	font-family:sans-serif;
-}
-/*На рынке*/
-#come .g
-{
-	font-size: 25px;
-	font-family: fantasy;
-	opacity: .5;
-	position: absolute;
-	left: 20vh;
-	top: 230px;
-}
-#come .g1
-{
-	font-size: 25px;
-	font-family: fantasy;
-	opacity: .5;
-	position: absolute;
-	left: 45vh;
-	top: 230px;
-}
-#come .g2
-{
-	font-size: 25px;
-	font-family: fantasy;
-	opacity: .5;
-	position: absolute;
-	left: 65vh;
-	top: 230px;
-}
-#come .g3
-{
-	font-size: 25px;
-	font-family: fantasy;
-	opacity: .5;
-	position: absolute;
-	left: 88vh;
-	top: 230px;
-}
-/*with photos*/
-#photo
-{	
-    width: 99%;
-	height:900px;
-	position: absolute;
-	top:900px;
-}
-#photo .q
-{
-	text-transform: uppercase;
-	font-size: 36px;
 	font-family: monospace;
-	position: absolute;
-	top: 11vh;
-	left: 35%;
-
 }
-#photo .f
+body
 {
-	position: absolute;
-	top: 30vh;
-	left: 15%;
+	background-color: rgba(250,250,250,0.5);
 }
-#photo .f1
-{
-	position: absolute;
-	top: 30vh;
-	left: 38%;
-}
-#photo .f2
-{
-	position: absolute;
-	top: 30vh;
-	left: 62%;
-}
-/*text*/
-#photo .h 
-{
-	border-top:  8px solid #F7654A;
-	font-family: sans-serif;
-    position: absolute;
-    top: 85vh;
-    left: 27vh;
-   
-}
-#photo .h1 
-{
-	border-top:  8px solid #F7654A;
-	font-family: sans-serif;
-    position: absolute;
-    top: 85vh;
-    left: 70vh;
-   
-}
-#photo .h2 
-{
-	border-top:  8px solid #F7654A;
-	font-family: sans-serif;
-    position: absolute;
-    top: 85vh;
-    left: 113vh;
-   
-}
-#photo .p
-{
-	width: 350px;
-	font-size: 20px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 95vh;
-	left: 27vh;
-}
-#photo .p2
-{
-	width: 350px;
-	font-size: 20px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 95vh;
-	left: 70vh;
-}
-#photo .p3
-{
-	width: 350px;
-	font-size: 20px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 95vh;
-	left: 113vh;
-}
-/*orange*/
-#orange
-{
-	width: 100%;
-	height: 180px;
-	background-color: #F7654A;
-	position: absolute;
-	top: 2100px;
-	left: 0;
-}
-/*orange text*/
-#orange h1
-{
-	text-transform: uppercase;
-	color: #fff;
-	font-family: fantasy;
-	font-size: 48px;
-	position: absolute;
-	left: 25vh;
-	top: 15px;
-}
-#orange h2
-{
-	text-transform: uppercase;
-	color: #fff;
-	width:500px;
-	font-size: 23px;
-	font-family: fantasy;
-	position: absolute;
-	left: 25vh;
-	top: 100px;
-}
-#orange button
-{	
-	width: 330px;
-	height: 50px;
-	font-size: 30px;
-	padding-right: 0 20px;
-	position: absolute;
-	right: 25vh;
-	top: 40%;
-}
-/*office*/
-#office
-{
-	width: 100%;
-	height: 840px;
-	position: absolute;
-	top: 2280px;
-	left: 0;
-}
-/*text h1*/
-#office h1
-{
-	text-transform: uppercase;
-	font-family: sans-serif;
-	position: absolute;
-	top: 130px;
-	left: 40%;
-}
-/*zdanie*/
-#office .p
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 260px;
-	left: 50vh;
-}
-#office .p1
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 260px;
-	left: 88vh;
-}
-#office .p2
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 260px;
-	right: 50vh;
-}
-#office .p3
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 560px;
-	left: 50vh;
-}
-#office .p4
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 560px;
-	left: 88vh;
-}
-#office .p5
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 560px;
-	right:50vh;
-}
-/*text office*/
-#office .q
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 380px;
-	left: 46.5vh;
-}
-#office .q1
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 380px;
-	left: 85vh;
-}
-#office .q2
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 380px;
-	right:46vh;
-}
-#office .q3
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 680px;
-	left: 46.5vh;
-}
-#office .q4
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 680px;
-	left: 85vh;
-}
-#office .q5
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 680px;
-	right: 46vh;
-}
-/*photo bgi 2*/
-#bgi-1
-{
-	width: 100%;
-	padding-right: 0px;
-	position: absolute;
-	top: 3200px;
-	left: 0;
-	display: flex;	
-}
-/*question*/
-#question
+#header
 {
 	width: 100%;
 	height: 900px;
 	position: absolute;
-	top: 3910px;
 	left: 0;
+	top: 0;
 }
-#question .q
+#header .i
 {
-	text-transform: uppercase;
-	font-family: sans-serif;
-	position: absolute;
-	left: 40%;
-	top: 15vh;
+ position: absolute;
+ left: 10%;
+ top: 6vh;
 }
-#question .h
+#header .h
 {
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #F7654A;
-	font-size: 26px;
-	position: absolute;
-	left: 15%;
-	top:30vh;
-}
-#question .h1
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #F7654A;
-	font-size: 26px;
-	position: absolute;
-	left: 15%;
-	top:38vh;
-}
-#question .h2
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #F7654A;
-	font-size: 26px;
-	position: absolute;
-	left: 15%;
-	top:71vh;
-}
-#question .h3
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #F7654A;
-	font-size: 26px;
-	position: absolute;
-	left: 15%;
-	top:81vh;
-}
-/*lorem*/
-#question .p
-{
-	width: 600px;
-	font-family: monospace;
-	font-size: 20px;	
-	opacity: .5;
-	position: absolute;
-	left: 15%;
-	top: 48vh;
-}
-/*bershko*/
-#bershko
-{
-	width: 100%;
-	height: 370px;
-	background-color: #404149;
-	position: absolute;
-	top: 4900px;
-	left: 0;
-}
-#bershko h1
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #fff;
-	position: absolute;
-	left: 40%;
-	top: 10vh;
-}
-#bershko .i
-{
-	margin-right:10vh;
-	position: relative;
-	top: 25vh;
-	left: 15%;
-}
-/*отзывы*/
-#otziv
-{
-	width: 100%;
-	height: 800px;
-	position: absolute;
-	top: 5275px;
-	left: 0;
-}
-#otziv h1
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	position: absolute;
-	left: 35%;
-	top: 10vh;
-}
-#otziv .d
-{
-	font-size: 36px;
-	color: #F7654A;
-	position: absolute;
-	top: 30vh;
-	left: 15%;
-}
-#otziv .d1
-{
-	font-size: 36px;
-	color: #F7654A;
-	position: absolute;
-	top:30vh;
-	left: 39%;
-}
-#otziv .d2
-{
-	font-size: 36px;
-	color: #F7654A;
-	position: absolute;
-	top:30vh;
-	left: 65%;
-}
-#otziv .q1
-{
-	font-size: 22px;
-	width: 300px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	left: 34vh;
-	top: 37vh;
-}
-#otziv .q2
-{
-	font-size: 22px;
-	width: 300px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	left: 43%;
-	top: 37vh;
-}
-#otziv .q3
-{
-	font-size: 22px;
-	width: 300px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	right: 26vh;
-	top: 37vh;
-}
-#otziv .p
-{
-	font-size: 19px;
-	font-family: sans-serif;
-	position: absolute;
-	left: 15%;
-	top: 72vh;
-}
-#otziv .p span
-{
-	color:  #F7654A;
-}
-#otziv .p1
-{
-	font-size: 19px;
-	font-family: sans-serif;
-	position: absolute;
-	left: 40%;
-	top: 72vh;
-}
-#otziv .p1 span
-{
-	color:  #F7654A;
-}
-#otziv .p2
-{
-	font-size: 19px;
-	font-family: sans-serif;
-	position: absolute;
-	right: 16%;
-	top: 72vh;
-}
-#otziv .p2 span
-{
-	color:  #F7654A;
-}
-/*orange-2*/
-#orange-2
-{
-	width: 100%;
-	height: 180px;
-	background-color: #F7654A;
-	position: absolute;
-	top: 6100px;
-	left: 0;
-}
-/*orange text*/
-#orange-2 h1
-{
-	text-transform: uppercase;
-	color: #fff;
-	font-family: fantasy;
-	font-size: 48px;
-	position: absolute;
-	left: 25vh;
-	top: 15px;
-}
-#orange-2 h2
-{
-	text-transform: uppercase;
-	color: #fff;
-	width:500px;
-	font-size: 23px;
-	font-family: fantasy;
-	position: absolute;
-	left: 25vh;
-	top: 100px;
-}
-#orange-2 button
-{	
-	width: 330px;
-	height: 50px;
-	font-size: 30px;
-	padding-right: 0 20px;
-	position: absolute;
-	right: 25vh;
-	top: 40%;
-}
-/*contact*/
-#contact
-{
-	width: 100%;
-	height: 600px;
-	position: absolute;
-	top: 6300px;
-	left: 0;
-}
-#contact h1
-{
-	text-transform: uppercase;
-	font-family: sans-serif;
-	position: absolute;
-	top: 10vh;
-	left: 40%;
-}
-/*icons*/
-#contact .p
-{
-	color: #F7654A;
-	font-size: 50px;
-	text-align: center;
-	position: absolute;
-	top: 20vh;
-	left: 18%;
-}
-#contact .p1
-{
-	color: #F7654A;
-	font-size: 50px;
-	text-align: center;
-	position: absolute;
-	top: 20vh;
-	left: 35%;
-}
-#contact .p2
-{
-	color: #F7654A;
-	font-size: 50px;
-	text-align: center;
-	position: absolute;
-	top: 20vh;
-	left: 52.5%;
-}
-#contact .p3
-{
-	color: #F7654A;
-	font-size: 50px;
-	text-align: center;
-	position: absolute;
-	top: 20vh;
-	left: 70%;
-}
-#contact .h
-{
-	text-transform: uppercase;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 33vh;
-	left: 17.5%;
-
-}
-#contact .h1
-{
-	text-transform: uppercase;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 33vh;
-	left: 34%;
-
-}
-#contact .h2
-{
-	text-transform: uppercase;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 33vh;
-	left: 50%;
-
-}
-#contact .h3
-{
-	text-transform: uppercase;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 33vh;
-	right: 25.8%;
-}
-#contact .a
-{
-	
-	font-size: 22px;
-	text-transform: uppercase;
-	font-family: monospace;
-	text-align: center;
-	position: absolute;
-	top: 38vh;
-	left: 12%;
-}
-#contact .a1
-{
-	font-size: 22px;
-	text-transform: uppercase;
-	font-family: monospace;
-	text-align: center;
-	position: absolute;
-	top: 38vh;
-	left: 30%;
-}
-#contact .a2
-{
-	font-size: 22px;
-	text-transform: uppercase;
-	font-family: monospace;
-	text-align: center;
-	position: absolute;
-	top: 38vh;
-	left: 49.4%;
-}
-#contact a
-{
-	font-size: 20px;
-	color: #F7654A;
-	text-transform: uppercase;
-	font-family: sans-serif;
-	position: absolute;
-	top: 41vh;
-	right: 24%;
-}
-/*footer*/
-#footer
-{
-	width: 100%;
-	height: 80px;
-	background-color: #404149;
-	position: absolute;
-	top: 6900px;
-	left: 0;
-}
-#footer .p
-{
-   font-family: sans-serif;
-   color: #fff;
-   position: absolute;
-   left: 15%;
-   top: 25%;
-}
-#footer .p1
-{
-   font-family: sans-serif;
-   color: #fff;
-   position: absolute;
-   right: 20%;
-   top: 25%;
-}
-@media(max-width: 1500px)
-{
-	#bgi-1
-{
-	width: 60%;
-	padding-right: 0px;
-	position: absolute;
-	top: 3200px;
-	left: 5%;
-		
-}
-#bgi-1 .b1
-{
-	display: none;
-}
-/*белый бэкграунд в начале*/
-#come
-{
-	background: #fff;
-	width: 1100px;
-	height:300px;
-	position: absolute;
-	top: 580px;
-	left: 160px;
-}
-#come .h{
-	font-size: 80px;
-	color:#F7654A;
-	position: absolute;
-	left: 20vh;
-	top: 15px;
-	font-family: sans-serif;
-
-}
-#come .h1{
-	font-size: 80px;
-	color:#F7654A;
-	position: absolute;
-	left: 50vh;
-	top: 15px;
-	font-family: sans-serif;
-
-}
-#come .h2{
-	font-size: 80px;
-	color:#F7654A;
-	position: absolute;
-	left: 78vh;
-	top: 15px;
-	font-family: sans-serif;
-
-}
-#come .h3{
-	font-size: 80px;
-	color:#F7654A;
-	position: absolute;
-	left: 105vh;
-	top: 15px;
-	font-family: sans-serif;
-
-}
-/*фон в начале*/
-#header 
-{    
-	 background:url(img/Rectangle.png);
- 	 width:1500px;
- 	 height: 740px;
- 	 position: absolute;
- 	 top:0;
- 	 left: 0;
-
-}
-/*Лет*/
-#come .p
-{
-	font-size: 40px;
-	text-transform: uppercase;
-	position: absolute;
-	left: 21vh;
-	top: 130px;
-	font-family:sans-serif;
-}
-#come .p1
-{
-	font-size: 40px;
-	text-transform: uppercase;
-	position: absolute;
-	left: 51vh;
-	top: 130px;
-	font-family:sans-serif;
-}
-#come .p2
-{
-	font-size: 40px;
-	text-transform: uppercase;
-	position: absolute;
-	left:79vh;
-	top: 130px;
-	font-family:sans-serif;
-}
-#come .p3
-{
-	font-size: 40px;
-	text-transform: uppercase;
-	position: absolute;
-	left: 106vh;
-	top: 130px;
-	font-family:sans-serif;
-}
-/*На рынке*/
-#come .g
-{
-	font-size: 25px;
-	font-family: fantasy;
-	opacity: .5;
-	position: absolute;
-	left: 20vh;
-	top: 190px;
-}
-#come .g1
-{
-	font-size: 25px;
-	font-family: fantasy;
-	opacity: .5;
-	position: absolute;
-	left: 50vh;
-	top: 190px;
-}
-#come .g2
-{
-	font-size: 25px;
-	font-family: fantasy;
-	opacity: .5;
-	position: absolute;
-	left:78vh;
-	top: 190px;
-}
-#come .g3
-{
-	font-size: 25px;
-	font-family: fantasy;
-	opacity: .5;
-	position: absolute;
-	left: 105vh;
-	top: 190px;
-}
-/*где фото стадиона текст заголовок*/
-#photo .q
-{
-	text-transform: uppercase;
-	font-size: 36px;
 	font-family: monospace;
 	position: absolute;
-	top: 8vh;
-	left: 30%;
-
-}
-/*фото стадиона*/
-#photo img
-{
-	margin-right: 35px;
-	position: relative;
-	top: 30vh;
-	left: 7%;
-}
-/*text*/
-#photo .h 
-{
-	border-top:  8px solid #F7654A;
-	font-family: sans-serif;
-    position: absolute;
-    top: 85vh;
-    left: 14vh;
-   
-}
-#photo .h1 
-{
-	border-top:  8px solid #F7654A;
-	font-family: sans-serif;
-    position: absolute;
-    top: 85vh;
-    left: 65vh;
-   
-}
-#photo .h2 
-{
-	border-top:  8px solid #F7654A;
-	font-family: sans-serif;
-    position: absolute;
-    top: 85vh;
-    left: 116vh;
-   
-}
-#photo .p
-{
-	width: 350px;
-	font-size: 20px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 95vh;
-	left: 14vh;
-}
-#photo .p2
-{
-	width: 350px;
-	font-size: 20px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 95vh;
-	left: 65vh;
-}
-#photo .p3
-{
-	width: 350px;
-	font-size: 20px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 95vh;
-	left: 116vh;
-}
-/*office*/
-#office
-{
-	width: 100%;
-	height: 840px;
-	position: absolute;
-	top: 2280px;
-	left: 0;
-}
-/*text h1*/
-#office h1
-{
-	text-transform: uppercase;
-	font-family: sans-serif;
-	position: absolute;
-	top: 130px;
-	left: 40%;
-}
-/*zdanie*/
-#office .p
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 260px;
-	left: 50vh;
-}
-#office .p1
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 260px;
-	left: 95vh;
-}
-#office .p2
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 260px;
-	right: 50vh;
-}
-#office .p3
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 560px;
-	left: 50vh;
-}
-#office .p4
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 560px;
-	left: 95vh;
-}
-#office .p5
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 560px;
-	right:50vh;
-}
-/*text office*/
-#office .q
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 380px;
-	left: 46.5vh;
-}
-#office .q1
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 380px;
-	left: 91vh;
-}
-#office .q2
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 380px;
-	right:46vh;
-}
-#office .q3
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 680px;
-	left: 46.5vh;
-}
-#office .q4
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 680px;
-	left: 91vh;
-}
-#office .q5
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 680px;
-	right: 46vh;
-}
-#bershko h1
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #fff;
-	position: absolute;
-	left: 40%;
-	top: 10vh;
-}
-#bershko .i
-{
-	margin-right:10vh;
-	position: relative;
-	top: 25vh;
-	left: 12%;
-}
-/*отзывы*/
-#otziv .q
-{
-	font-size: 36px;
-	letter-spacing: 25vh;
-	color: #F7654A;
-	position: relative;
-	top:30vh;
-}
-#otziv .q1
-{
-	font-size: 22px;
-	width: 300px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	left: 14%;
-	top: 37vh;
-}
-#otziv .q2
-{
-	font-size: 22px;
-	width: 300px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	left: 42.5%;
-	top: 37vh;
-}
-#otziv .q3
-{
-	font-size: 22px;
-	width: 300px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	right: 9%;
-	top: 37vh;
-}
-#otziv .p
-{
-	font-size: 19px;
-	font-family: sans-serif;
-	position: absolute;
-	left: 13%;
-	top: 75vh;
-}
-#otziv .p span
-{
-	color:  #F7654A;
-}
-#otziv .p1
-{
-	font-size: 19px;
-	font-family: sans-serif;
-	position: absolute;
-	left: 40%;
-	top: 75vh;
-}
-#otziv .p1 span
-{
-	color:  #F7654A;
-}
-#otziv .p2
-{
-	font-size: 19px;
-	font-family: sans-serif;
-	position: absolute;
-	right: 10%;
-	top: 75vh;
-}
-#otziv .p2 span
-{
-	color:  #F7654A;
-}
-/*icons*/
-#contact .p
-{
-	color: #F7654A;
-	letter-spacing:28vh;
-	font-size: 50px;
-	position: absolute;
-	top: 20vh;
-	left: 18%;
-}
-#contact .h
-{
-	text-transform: uppercase;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 33vh;
-	left: 17.5%;
-
-}
-#contact .h1
-{
-	text-transform: uppercase;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 33vh;
-	left: 34%;
-
-}
-#contact .h2
-{
-	text-transform: uppercase;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 33vh;
-	left: 50%;
-
-}
-#contact .h3
-{
-	text-transform: uppercase;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 33vh;
-	right: 25.8%;
-}
-#contact .a
-{
-	
-	font-size: 22px;
-	text-transform: uppercase;
-	font-family: monospace;
-	text-align: center;
-	position: absolute;
-	top: 38vh;
-	left: 12%;
-}
-#contact .a1
-{
-	font-size: 22px;
-	text-transform: uppercase;
-	font-family: monospace;
-	text-align: center;
-	position: absolute;
-	top: 38vh;
-	left: 30%;
-}
-#contact .a2
-{
-	font-size: 22px;
-	text-transform: uppercase;
-	font-family: monospace;
-	text-align: center;
-	position: absolute;
-	top: 38vh;
-	left: 49.4%;
-}
-#contact a
-{
-	font-size: 20px;
-	color: #F7654A;
-	text-transform: uppercase;
-	font-family: sans-serif;
-	position: absolute;
-	top: 41vh;
-	right: 24%;
-}
-}
-@media(max-width: 1350px)
-{
-	#office .p1
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 260px;
-	left:  47.5%;
-}
-	#office .p4
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 560px;
-	left: 47.5%;
-}
-#office .q1
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 380px;
-	left: 45%;
-}
-#office .q4
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 680px;
-	left: 45%;
-}
-	#otziv .d
-{
-	font-size: 36px;
-	letter-spacing: 25vh;
-	color: #F7654A;
-	position: relative;
-	top:30vh;
-	left: 11%;
-}
-#contact .a
-{
-	
-	font-size: 16px;
-	text-transform: uppercase;
-	font-family: monospace;
-	text-align: center;
-	position: absolute;
-	top: 38vh;
-	left: 12%;
-}
-#contact .a1
-{
-	font-size: 16px;
-	text-transform: uppercase;
-	font-family: monospace;
-	text-align: center;
-	position: absolute;
-	top: 38vh;
-	left: 30%;
-}
-#contact .a2
-{
-	font-size: 16px;
-	text-transform: uppercase;
-	font-family: monospace;
-	text-align: center;
-	position: absolute;
-	top: 38vh;
-	left: 49.4%;
-}
-#contact a
-{
-	font-size: 16px;
-	text-transform: uppercase;
-	font-family: monospace;
-	text-align: center;
-	position: absolute;
-	top: 40vh;
-	left: 67%;
-}
-/*orange text*/
-#orange-2 h1
-{
-	text-transform: uppercase;
-	color: #fff;
-	font-family: fantasy;
-	font-size: 30px;
-	position: absolute;
-	left: 25vh;
-	top: 25px;
-}
-#orange-2 h2
-{
-	text-transform: uppercase;
-	color: #fff;
-	width:500px;
-	font-size: 20px;
-	font-family: fantasy;
-	position: absolute;
-	left: 25vh;
-	top: 80px;
-}
-#orange-2 button
-{	
-	width: 200px;
-	height: 50px;
-	font-size: 16px;
-	padding-right: 0 20px;
-	position: absolute;
-	right: 25vh;
-	top: 40%;
-}
-/*отзывы*/
-#otziv
-{
-	width: 100%;
-	height: 800px;
-	position: absolute;
-	top: 5275px;
-	left: 0;
-}
-#otziv h1
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	position: absolute;
-	left: 35%;
-	top: 10vh;
-}
-#otziv .d
-{
-	font-size: 30px;
-	color: #F7654A;
-	position: absolute;
-	top: 30vh;
-	left: 15%;
-}
-#otziv .d1
-{
-	font-size: 30px;
-	color: #F7654A;
-	position: absolute;
-	top:30vh;
-	left: 39%;
-}
-#otziv .d2
-{
-	font-size: 30px;
-	color: #F7654A;
-	position: absolute;
-	top:30vh;
-	left: 64.5%;
-}
-#otziv .q1
-{
-	font-size: 18px;
-	width: 260px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	left: 15%;
-	top: 37vh;
-}
-#otziv .q2
-{
-	font-size: 18px;
-	width: 260px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	left: 39%;
-	top: 37vh;
-}
-#otziv .q3
-{
-	font-size: 18px;
-	width: 260px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	right: 15%;
-	top: 37vh;
-}
-#otziv .p
-{
-	font-size: 16px;
-	font-family: sans-serif;
-	position: absolute;
-	left: 14%;
-	top: 72vh;
-}
-#otziv .p span
-{
-	color:  #F7654A;
-}
-#otziv .p1
-{
-	font-size: 16px;
-	font-family: sans-serif;
-	position: absolute;
-	left: 38%;
-	top: 72vh;
-}
-#otziv .p1 span
-{
-	color:  #F7654A;
-}
-#otziv .p2
-{
-	font-size: 16px;
-	font-family: sans-serif;
-	position: absolute;
-	right: 16%;
-	top: 72vh;
-}
-#otziv .p2 span
-{
-	color:  #F7654A;
-}
-#bershko .i
-{
-	margin-right:8vh;
-	position: relative;
-	top: 25vh;
-	left: 10%;
-}
-/*question*/
-#question
-{
-	width: 100%;
-	height: 300px;
-	position: absolute;
-	top: 3510px;
-	left: 0;
-}
-#question .q
-{
-	text-transform: uppercase;
-	font-family: sans-serif;
-	position: absolute;
-	left: 40%;
-	top: 15vh;
-}
-#question .h
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #F7654A;
-	font-size: 20px;
-	position: absolute;
-	left: 15%;
-	top:30vh;
-}
-#question .h1
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #F7654A;
-	font-size: 20px;
-	position: absolute;
-	left: 15%;
-	top:38vh;
-}
-#question .h2
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #F7654A;
-	font-size: 20px;
-	position: absolute;
-	left: 15%;
-	top:65vh;
-}
-#question .h3
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #F7654A;
-	font-size: 20px;
-	position: absolute;
-	left: 15%;
-	top:75vh;
-}
-/*lorem*/
-#question .p
-{
-	width: 600px;
-	font-family: monospace;
-	font-size: 16px;	
-	opacity: .5;
-	position: absolute;
-	left: 15%;
-	top: 45vh;
-}
-/*bershko*/
-#bershko
-{
-	width: 100%;
-	height: 370px;
-	background-color: #404149;
-	position: absolute;
-	top: 4900px;
-	left: 0;
-}
-/*orange text*/
-#orange h1
-{
-	text-transform: uppercase;
-	color: #fff;
-	font-family: fantasy;
-	font-size: 30px;
-	position: absolute;
-	left: 15%;
-	top: 15%;
-}
-#orange h2
-{
-	text-transform: uppercase;
-	color: #fff;
-	width:500px;
-	font-size: 18px;
-	font-family: fantasy;
-	position: absolute;
-	left: 15%;
-	top: 90px;
-}
-#orange button
-{	
-	width: 200px;
-	height: 50px;
-	font-size: 20px;
-	padding-right: 0 20px;
-	position: absolute;
-	right: 25vh;
-	top: 40%;
-}
-}
-@media(max-width: 810px)
-{
-	#photo .f
-{
-	width: 266px;
-	position: absolute;
-	top: 30vh;
-	left: 25%;
-}
-	#photo .f1
-{
-	width: 266px;
-	position: absolute;
-	top: 30vh;
-	left: 65%;
-}
-	#photo .f2
-{
-	width: 266px;
-	position: absolute;
-	top: 30vh;
-	left: 107%;
-}
-/*text*/
-#photo .h 
-{
-	border-top:  8px solid #F7654A;
-	font-family: sans-serif;
-	font-size: 24px;
-    position: absolute;
-    top: 75vh;
-    left: 27vh;
-   
-}
-#photo .h1 
-{
-	border-top:  8px solid #F7654A;
-	font-family: sans-serif;
-	font-size: 24px;
-    position: absolute;
-    top: 75vh;
-    left: 70vh;
-   
-}
-#photo .h2 
-{
-	border-top:  8px solid #F7654A;
-	font-family: sans-serif;
-	font-size: 24px;
-    position: absolute;
-    top: 75vh;
-    left: 113vh;
-   
-}
-#photo .p
-{
-	width: 266px;
-	font-size: 16px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 85vh;
-	left: 27vh;
-}
-#photo .p2
-{
-	width: 266px;
-	font-size: 16px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 85vh;
-	left: 70vh;
-}
-#photo .p3
-{
-	width:266px;
-	font-size: 16px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 85vh;
-	left: 113vh;
-}
-}
-@media(max-width: 700px)
-{
-	#header 
-{    
-	 background:url(img/Rectangle.png);
-	 background-size: cover;
-	 background-repeat: no-repeat;
- 	 width: 600px;
- 	 height: 400px;
- 	 position: absolute;
- 	 top:0;
- 	 left: 0;
-
-}
-#header h1
-{
-	font-size: 18px;
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color:#FFFFFF;
-	text-align: center;
-	position: relative;
-	top: 15vh;
-	
-	
-}
-#header h5
-{
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-    position: relative;
-    top:17vh;
-    font-family: sans-serif;
-  
-}
-/*нижу белый фон*/
-#come
-{
-	background: #fff;
-	width: 400px;
-	height:100px;
-	position: absolute;
-	top: 350px;
-	left: 16%;
-}
-/*26*/
-#come .h{
-	font-size: 20px;
-	color:#F7654A;
-	position: absolute;
-	left: 15%;
-	top: 5px;
-	font-family: sans-serif;
-
-}
-#come .h1{
-	font-size: 20px;
-	color:#F7654A;
-	position: absolute;
-	left: 35%;
-	top: 5px;
-	font-family: sans-serif;
-
-}
-#come .h2{
-	font-size: 20px;
-	color:#F7654A;
-	position: absolute;
-	left: 55%;
-	top: 5px;
-	font-family: sans-serif;
-
-}
-#come .h3{
-	font-size: 20px;
-	color:#F7654A;
-	position: absolute;
-	left: 75%;
-	top: 5px;
-	font-family: sans-serif;
-
-}
-/*Лет*/
-#come .p
-{
-	font-size: 15px;
-	text-transform: uppercase;
-	position: absolute;
-	left: 14%;
-	top: 25px;
-	font-family:sans-serif;
-}
-#come .p1
-{
-	font-size: 15px;
-	text-transform: uppercase;
-	position: absolute;
-	left: 34%;
-	top: 25px;
-	font-family:sans-serif;
-}
-#come .p2
-{
-	font-size: 15px;
-	text-transform: uppercase;
-	position: absolute;
-	left: 54%;
-	top: 25px;
-	font-family:sans-serif;
-}
-#come .p3
-{
-	font-size: 15px;
-	text-transform: uppercase;
-	position: absolute;
-	left: 74%;
-	top: 25px;
-	font-family:sans-serif;
-}
-/*На рынке*/
-#come .g
-{
-	font-size: 8px;
-	font-family: fantasy;
-	opacity: .5;
-	position: absolute;
-	left: 10%;
-	top: 43px;
-}
-#come .g1
-{
-	font-size: 8px;
-	font-family: fantasy;
-	opacity: .5;
-	position: absolute;
-	left: 30%;
-	top: 43px;
-}
-#come .g2
-{
-	font-size: 8px;
-	font-family: fantasy;
-	opacity: .5;
-	position: absolute;
-	left: 50%;
-	top: 43px;
-}
-#come .g3
-{
-	font-size: 8px;
-	font-family: fantasy;
-	opacity: .5;
-	position: absolute;
-	left: 70%;
-	top: 43px;
-}
-/*with photos*/
-#photo
-{	
-    width: 100%;
-	height:500px;
-	position: absolute;
-	top:400px;
-	left: 0;
-}
-#photo .q
-{
-	text-transform: uppercase;
-	font-size: 20px;
-	font-family: monospace;
-	position: absolute;
-	top:8vh;
-	left: 25%;
-
-}
-#photo .f
-{
-	position: absolute;
-	top: 20vh;
-	left: 6%;
-}
-#photo .f1
-{
-	position: absolute;
-	top: 20vh;
-	left: 52%;
-}
-#photo .f2
-{
-	display: none;
-}
-/*text*/
-#photo .h 
-{
-	border-top:  8px solid #F7654A;
-	font-family: sans-serif;
-    position: absolute;
-    top: 60vh;
-    left: 6%;
-   
-}
-#photo .h1 
-{
-	border-top:  8px solid #F7654A;
-	font-family: sans-serif;
-    position: absolute;
-    top: 60vh;
-    left: 52%;
-   
-}
-#photo .h2 
-{
-	display: none;
-   
-}
-#photo .p
-{
-	width: 240px;
-	font-size: 18px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 68vh;
-	left: 6%;
-}
-#photo .p2
-{
-	width: 240px;
-	font-size: 18px;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 68vh;
-	left: 52%;
-}
-#photo .p3
-{
-	display: none;
-}
-/*orange*/
-#orange
-{
-	width: 100%;
-	height: 100px;
-	background-color: #F7654A;
-	position: absolute;
-	top: 1200px;
-	left: 0;
-}
-/*orange text*/
-#orange h1
-{
-	text-transform: uppercase;
-	color: #fff;
-	font-family: fantasy;
-	font-size: 20px;
-	position: absolute;
-	left: 11%;
-	top: 15px;
-}
-#orange h2
-{
-	text-transform: uppercase;
-	color: #fff;
-	font-size: 16px;
-	font-family: fantasy;
-	position: absolute;
-	left: 11%;
-	top: 50px;
-}
-#orange button
-{	
-	width: 130px;
-	height: 30px;
-	font-size: 14px;
-	padding-right: 0 20px;
-	position: absolute;
-	right: 5%;
-	top: 40%;
-}
-/*office*/
-#office
-{
-	width: 100%;
-	height: 840px;
-	position: absolute;
-	top: 1300px;
-	left: 0;
-}
-/*text h1*/
-#office h1
-{
-	text-transform: uppercase;
-	font-family: sans-serif;
-	position: absolute;
-	font-size: 20px;
-	top: 130px;
-	left: 30%;
-}
-/*zdanie*/
-#office .p
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 260px;
-	left: 10%;
-}
-#office .p1
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 260px;
-	left: 43%;
-}
-#office .p2
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 260px;
-	right: 15%;
-}
-#office .p3
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 480px;
-	left: 10%;
-}
-#office .p4
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 480px;
-	left: 43%;
-}
-#office .p5
-{
-	font-size: 52px;
-	color: #F7654A;
-	position: absolute;
-	top: 480px;
-	right:15%;
-}
-/*text office*/
-#office .q
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 380px;
-	left: 6%;
-}
-#office .q1
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 380px;
-	left: 36%;
-}
-#office .q2
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 380px;
-	right:10%;
-}
-#office .q3
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 580px;
-	left: 6%;
-}
-#office .q4
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 580px;
-	left: 36%;
-}
-#office .q5
-{
-	text-transform: uppercase;
-	font-family: fantasy;
-	text-align: center;
-	position: absolute;
-	top: 580px;
-	right: 10%;
-}
-/*photo bgi 2*/
-#bgi-1
-{
-	width: 600px;
-	position: absolute;
-	top: 2000px;
-	left: 0;	
-}
-#bgi-1 .b3
-{
-	display: none;
-}
-/*question*/
-#question
-{
-	width: 100%;
-	height: 900px;
-	position: absolute;
-	top: 2300px;
-	left: 0;
-}
-#question .q
-{
-	text-transform: uppercase;
-	font-family: sans-serif;
-	position: absolute;
-	font-size: 20px;
-	left: 40%;
-	top: 15vh;
-}
-#question .h
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #F7654A;
-	font-size: 22px;
-	position: absolute;
-	left: 15%;
-	top:30vh;
-}
-#question .h1
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #F7654A;
-	font-size: 22px;
-	position: absolute;
-	left: 15%;
-	top:38vh;
-}
-#question .h2
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #F7654A;
-	font-size: 22px;
-	position: absolute;
-	left: 15%;
-	top:71vh;
-}
-#question .h3
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #F7654A;
-	font-size: 22px;
-	position: absolute;
-	left: 15%;
-	top:81vh;
-}
-/*lorem*/
-#question .p
-{
-	width: 600px;
-	font-family: monospace;
-	font-size: 20px;	
-	opacity: .5;
-	position: absolute;
-	left: 15%;
-	top: 48vh;
-}
-/*bershko*/
-#bershko
-{
-	width: 100%;
-	height: 170px;
-	background-color: #404149;
-	position: absolute;
-	top: 3100px;
-	left: 0;
-}
-#bershko h1
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #fff;
-	font-size: 20px;
-	position: absolute;
-	left: 35%;
+	left: 12.5%;
 	top: 5vh;
 }
-#bershko .i
+#header a
 {
-	margin-right:1px;
-	position: absolute;
-	top: 50%;
-	left: 35%;
-}
-/*отзывы*/
-#otziv
-{
-	width: 100%;
-	height: 800px;
-	position: absolute;
-	top: 3250px;
-	left: 0;
-}
-#otziv h1
-{
-	font-family: sans-serif;
-	text-transform: uppercase;
+	color:#4F5665;
+
 	font-size: 20px;
-	position: absolute;
-	left: 30%;
-	top: 10vh;
-}
-#otziv .d
-{
-	font-size: 34px;
-	color: #F7654A;
-	position: absolute;
-	top: 25vh;
-	left: 10%;
-}
-#otziv .d1
-{
-	font-size: 34px;
-	color: #F7654A;
-	position: absolute;
-	top:25vh;
-	left: 60%;
-}
-#otziv .d2
-{
-	display: none;
-}
-#otziv .q1
-{
-	font-size: 18px;
-	width: 200px;
+	text-decoration: none;
 	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	left: 60%;
-	top: 32vh;
+	 margin: 0 20px;
+	 position: relative;
+	 left: 30%;
+ 	 top: 7.5vh;
 }
-#otziv .q2
+#header a:hover
+{
+	color: #000;
+}
+#header .p
+{
+ 	font-family: monospace;
+ 	font-size:  22px;
+	 position: absolute;
+	 left: 75%;
+ 	 top: 5vh;
+}
+#header .a
+{ 
+	 color:#F53855;
+ 	 font-family: monospace;
+ 	 width: 120px;
+ 	 font-size:  20px;
+	 position: absolute;
+	 text-align: center;
+	 left: 80%;
+ 	 top: 7.5vh;
+ 	 border: 1px solid #F53855;
+ 	 border-radius: 50px;
+ 	
+}
+#header .a:hover
+{
+	color: #000;
+	border: 1px solid #000;
+}
+#header .i1
+{
+	position: absolute;
+	right: 15%;
+	top: 30vh;
+
+}
+#header .h1
+{ 	
+	font-size: 56px;
+	position: absolute;
+	left: 10%;
+	top:30vh;
+
+}
+#header .p1
 {
 	font-size: 18px;
-	width: 200px;
-	font-family: monospace;
+	position: absolute;
+	left: 10%;
+	top: 50vh;
 	opacity: .5;
-	position: absolute;
-	left: 10%;
-	top: 32vh;
 }
-#otziv .q3
-{
-	display: none;
-}
-#otziv .p
-{
-	font-size: 14px;
-	font-family: sans-serif;
-	position: absolute;
-	left: 7%;
-	top: 70vh;
-}
-#otziv .p span
-{
-	color:  #F7654A;
-}
-#otziv .p1
-{
-	font-size: 14px;
-	font-family: sans-serif;
-	position: absolute;
-	left: 57%;
-	top: 70vh;
-}
-#otziv .p1 span
-{
-	color:  #F7654A;
-}
-#otziv .p2
-{
-	display: none;
-}
-#otziv .p2 span
-{
-	color:  #F7654A;
-}
-/*orange-2*/
-#orange-2
-{
-	width: 100%;
-	height: 100px;
-	background-color: #F7654A;
-	position: absolute;
-	top: 3900px;
-	left: 0;
-}
-/*orange text*/
-#orange-2 h1
-{
-	text-transform: uppercase;
-	color: #fff;
-	font-family: fantasy;
-	font-size: 20px;
-	position: absolute;
-	left: 10%;
-	top: 15px;
-}
-#orange-2 h2
-{
-	text-transform: uppercase;
-	color: #fff;
-	width:500px;
-	font-size: 18px;
-	font-family: fantasy;
-	position: absolute;
-	left: 10%;
-	top: 45px;
-}
-#orange-2 button
+#header .p2
 {	
-	width: 120px;
-	height: 30px;
-	font-size: 14px;
-	padding-right: 0 20px;
-	position: absolute;
-	right: 8%;
-	top: 40%;
-}
-/*contact*/
-#contact
-{
-	width: 100%;
-	height: 600px;
-	position: absolute;
-	top: 4000px;
-	left: 0;
-}
-#contact h1
-{
-	text-transform: uppercase;
-	font-family: sans-serif;
-	font-size: 15px
-	position: absolute;
-	top: 10vh;
-	left: 40%;
-}
-/*icons*/
-#contact .p
-{
-	color: #F7654A;
-	font-size: 40px;
 	text-align: center;
+	font-size: 24px;
 	position: absolute;
-	top: 20vh;
-	left: 14%;
+	left: 20%;
+	top: 65vh;
+	color:#fff;
+	background-color: #F53855;
+	border: solid #F53855 ;
+	border-width: 20px;
+	border-radius: 10px;
 }
-#contact .p1
-{
-	color: #F7654A;
-	font-size: 40px;
-	text-align: center;
-	position: absolute;
-	top: 20vh;
-	left: 40%;
+.btnflip {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transform-origin: center center;
 }
-#contact .p2
-{
-	color: #F7654A;
-	font-size: 40px;
-	text-align: center;
-	position: absolute;
-	top: 20vh;
-	left: 59.5%;
+.btnflip-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 24px;
+  background-color: rgba(0,0,0, .05);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  transition: 1s;
 }
-#contact .p3
-{
-	color: #F7654A;
-	font-size: 40px;
-	text-align: center;
-	position: absolute;
-	top: 20vh;
-	left: 85%;
+.btnflip-item.btnflip__front {
+  transform: rotateX(0deg) translateZ(20px);
 }
-#contact .h
-{
-	text-transform: uppercase;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 33vh;
-	left: 11.5%;
-
+.btnflip:hover .btnflip-item.btnflip__front {
+  transform: rotateX(-180deg) translateZ(20px);
 }
-#contact .h1
-{
-	text-transform: uppercase;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 33vh;
-	left: 36%;
-
+.btnflip-item.btnflip__back {
+  transform: rotateX(180deg) translateZ(20px);
 }
-#contact .h2
-{
-	text-transform: uppercase;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 33vh;
-	left: 52%;
-
+.btnflip:hover .btnflip-item.btnflip__back {
+  transform: rotateX(0deg) translateZ(20px);
 }
-#contact .h3
-{
-	text-transform: uppercase;
-	font-family: monospace;
-	opacity: .5;
-	position: absolute;
-	top: 33vh;
-	right: 5.8%;
+.btnflip-item.btnflip__center {
+  background: linear-gradient(to left, #c31a5b, #7129bd);
 }
-#contact .a
-{
-	
-	font-size: 8px;
-	text-transform: uppercase;
-	font-family: monospace;
-	text-align: center;
-	position: absolute;
-	top: 38vh;
-	left: 2%;
+.btnflip-item.btnflip__center::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #ffdd1f, #c31a5b);
+  border-radius: 30px;
+  transform: translateZ(-1px);
 }
-#contact .a1
-{
-	font-size: 8px;
-	text-transform: uppercase;
-	font-family: monospace;
-	text-align: center;
-	position: absolute;
-	top: 38vh;
-	left: 30%;
+.btnflip:hover .btnflip-item.btnflip__center {
+  transform: rotateX(-180deg);
 }
-#contact .a2
-{
-	font-size: 8px;
-	text-transform: uppercase;
-	font-family: monospace;
-	text-align: center;
-	position: absolute;
-	top: 38vh;
-	left: 54.4%;
-}
-#contact a
-{
-	font-size: 8px;
-	color: #F7654A;
-	text-transform: uppercase;
-	font-family: sans-serif;
-	position: absolute;
-	top: 41vh;
-	right: 0;
-}
-/*footer*/
 #footer
 {
 	width: 100%;
-	height: 80px;
-	background-color: #404149;
-	position: absolute;
-	top: 4400px;
+	height: 100px;
+	background-color: rgba(0,0,0,0.8);
+	position:absolute;
+	top: 800px;
 	left: 0;
 }
-#footer .p
+
+
+@media (max-width: 768px)
 {
-   font-family: sans-serif;
-   color: #fff;
-   position: absolute;
-   left: 10%;
-   top: 25%;
+	.i
+	{
+		max-width: 25px;
+		max-height: 25px;
+	}
+	.h
+	{
+		font-size: 15px;
+
+	}
+	#header a
+	{
+		font-size: 15px;
+		position: relative;
+		left: 23%;
+		top: 6.5%;
+		margin: 0 5px;
+	}
+	#header .p
+	{
+		display: none;
+	}
+	#header .a
+	{
+		font-size: 15px;
+		max-width: 60px;
+		position: absolute;
+		left: 73%;
+		top: 6.5%;
+	}
+	#header .i1
+	{
+		position: absolute;
+		left: 0;
+		top: 10%;
+	}
+	#header .h1
+	{
+		font-size: 30px;
+		top: 55%;
+		left: 25%;
+	}
+	#header .p1
+	{
+		font-size: 16px;
+		max-width:500px;
+		position: absolute;
+		top: 70%;
+		left: 7%;
+		align-items: center;
+	}
+	.btnflip
+	{
+		position: absolute;
+		top: 80%;
+		left: 43%;
+	}
+	#footer
+	{
+		max-width: 768px;
+		position: absolute;
+		top: 850px;
+	}
 }
-#footer .p1
+@media (max-width: 480px)
 {
-   font-family: sans-serif;
-   color: #fff;
-   position: absolute;
-   right: 10%;
-   top: 25%;
-}
+	.i
+	{
+		max-width: 15px;
+		max-height: 15px;
+	}
+	.h
+	{
+		font-size: 11px;
+
+	}
+	#header a
+	{
+		font-size: 11px;
+		position: relative;
+		left: 29%;
+		top: 6.5%;
+		margin: 0 1px;
+	}
+	#header .p
+	{
+		display: none;
+	}
+	#header .a
+	{
+		font-size: 14px;
+		max-width: 60px;
+		position: absolute;
+		left: 80%;
+		top: 10%;
+	}
+	#header .i1
+	{
+		max-width: 480px;
+		position: absolute;
+		left: 0;
+		top: 10%;
+	}
+	#header .h1
+	{
+		font-size: 30px;
+		top: 45%;
+		left: 25%;
+	}
+	#header .p1
+	{
+		font-size: 16px;
+		max-width:500px;
+		position: absolute;
+		top: 55%;
+		left: 7%;
+		align-items: center;
+	}
+	.btnflip
+	{
+		position: absolute;
+		top: 65%;
+		left: 53%;
+	}
+	#footer
+	{
+		height: 70px;
+		max-width: 768px;
+		position: absolute;
+		top: 690px;
+	}
 }
